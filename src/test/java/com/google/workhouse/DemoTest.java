@@ -14,7 +14,7 @@ public class DemoTest {
     	//System.out.println(path);
     	String OS=System.getProperty("os.name").toLowerCase();
     	//if(OS.equals("windows")) {
-		System.setProperty("webdriver.chrome.driver", "path\\src\\test\\java\\com\\google\\workhouse\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mayukh\\Documents\\GitHub\\workhouse\\src\\test\\java\\com\\google\\workhouse\\resources\\chromedriver.exe");
 		driver= new ChromeDriver();
 		System.out.println("Launched Browser");
 		driver.navigate().to("https://www.google.com/");
